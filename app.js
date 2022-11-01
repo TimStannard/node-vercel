@@ -201,6 +201,10 @@ app.get('/coffee/:id', (req, res) => {
   })
 })
 
+app.get('/', (req, res) => {
+  res.send("Yo welcome to the backend server");
+})
+
 // What we'll be covering today:
 
 // - Editing coffees via the bootstrap modal
